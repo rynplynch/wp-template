@@ -3,6 +3,6 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
-  outputs = inputs@{ flake-parts, self, ... }:
+  outputs = inputs@{ self, ... }:
     { };
 }
